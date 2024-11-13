@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\OOPSix\\OOPSECOND\\OOPSECOND.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\SECONDOOP\\OOPSECOND.csproj",
       "projectName": "OOPSECOND",
-      "projectPath": "D:\\Visual Studio\\OOPSix\\OOPSECOND\\OOPSECOND.csproj",
+      "projectPath": "D:\\Visual Studio\\SECONDOOP\\OOPSECOND.csproj",
       "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\OOPSix\\OOPSECOND\\obj\\",
+      "outputPath": "D:\\Visual Studio\\SECONDOOP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

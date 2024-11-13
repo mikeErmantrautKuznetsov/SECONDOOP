@@ -15,11 +15,10 @@ namespace OOPSecond
             YPosition = yPosition;
         }
     }
-    public class Draw
+    public class Drawer
     {
-        public void DatePlayer(int X, int Y)
+        public void StartRendering(Player player)
         {
-            Player player = new Player(X, Y);
             int[,] mapArray = new int[10, 10];
 
             for (int i = 0; i < mapArray.GetLength(0); i++)
@@ -33,19 +32,14 @@ namespace OOPSecond
             Console.SetCursorPosition(player.XPosition, player.YPosition);
             Console.WriteLine("$");
         }
-
-        public void StartRendering(int X, int Y)
-        {
-            DatePlayer(X, Y);
-        }
     }
 
     public class Program
     {
         public static void Main(string[] args)
         {
-            Draw draw = new Draw();
-            draw.StartRendering(6, 5);
+            Drawer drawer = new Drawer();
+            drawer.StartRendering(new Player(4, 6));
         }
 
     }
